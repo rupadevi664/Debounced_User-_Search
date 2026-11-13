@@ -1,0 +1,71 @@
+.search-app {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: sans-serif;
+}
+
+.search-app h1 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.search-app input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-app input:focus {
+  border-color: #0066cc;
+}
+
+.results-container {
+  margin-top: 16px;
+}
+
+.status {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.status.error {
+  color: #cc0000;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-item {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background-color: #fff;
+}
+
+.user-name {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.user-name strong {
+  font-weight: bold;
+}
+
+.user-email,
+.user-city {
+  font-size: 0.875rem;
+  color: #555;
+  margin-top: 2px;
+}
